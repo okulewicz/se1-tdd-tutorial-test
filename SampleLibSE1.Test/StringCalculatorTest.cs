@@ -9,9 +9,11 @@ namespace SampleLibSE1.Test
         [TestMethod]
         public void EmptyStringReturnZero()
         {
+            string emptyInput = "";
+            int expectedOutputForEmptyInput = 0;
             StringCalculator sc = new StringCalculator();
-            
-            Assert.AreEqual(0, sc.Add(""));
+            int result = sc.Add(emptyInput);
+            Assert.AreEqual(expectedOutput, result);
         }
     }
 }
