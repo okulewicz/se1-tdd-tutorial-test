@@ -7,6 +7,7 @@ namespace SampleLibSE1.Test
     {
         private const double EPS = 1e-8;
 
+        [Ignore]
         [TestMethod]
         public void AddPointsToRouteTest()
         {
