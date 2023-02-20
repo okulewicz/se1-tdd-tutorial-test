@@ -13,7 +13,7 @@ namespace SampleLibSE1.Test
             int expectedOutputForEmptyInput = 0;
             StringCalculator sc = new StringCalculator();
             int result = sc.Add(emptyInput);
-            Assert.AreEqual(expectedOutput, result);
+            Assert.AreEqual(expectedOutputForEmptyInput, result);
         }
     }
 }
